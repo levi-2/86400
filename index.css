@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Kiona-Regular";
+    src: url(./Kiona-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Kiona-Regular', sans-serif;
+}
+body {
+    background-color: rgb(110, 110, 110);
+}
+
+#mainCounter {
+    position: relative;
+
+    margin: 0 0 0 5%;
+    width: 60vw; height: 100vh;
+    overflow: hidden;
+}
+.digitNode {
+    position: relative;
+    top: 0;
+    width: 20%;
+    text-align: center;
+    transition: top 0.3s;
+}
+.numberNode {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15vw;
+    color: #111;
+}
